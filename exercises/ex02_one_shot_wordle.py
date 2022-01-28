@@ -1,6 +1,6 @@
 """Exercise 2, one shot wordle."""
 
-__author__ = 730477365
+__author__ = "730477365"
 
 secret_word: str = "python"
 letter_count: int = len(secret_word)
