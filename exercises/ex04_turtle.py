@@ -32,7 +32,7 @@ def main() -> None:
     building_x: float = l * -10.5
     while (i < 7):
         building_y: float = randint(0, 2) * 1.5 * l
-        colors: list[str] = ["burlywood", "mediumpurple", "indianred", "lemonchiffon", "salmon", "palevioletred"]
+        colors: list[str] = ["burlywood", "mediumpurple", "firebrick", "lemonchiffon", "salmon", "palevioletred"]
         building_color: str = colors[randint(0, 5)]
         building(nick, building_x, building_y, l * 3.5, building_y + 6 * l, building_color)
         alt_i: int = 0
@@ -69,6 +69,7 @@ def building(nick: Turtle, x: float, y: float, width: float, height: float, colo
 
 
 def box(joe: Turtle, x: float, y: float, width: float) -> None:
+    """Creates the filled in box part of the windows."""
     joe.penup()
     joe.goto(x, y)
     joe.setheading(0.0)
