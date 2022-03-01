@@ -1,9 +1,10 @@
-"""Docstring."""
+"""Functions that in a given list create a new list with only the even numbers, only the numbers in a given range, and add the lists together."""
 
 __author__ = "730477365"
 
 
 def only_evens(numbers: list[int]) -> list[int]:
+    """Returns a list with only the even numbers of a given list."""
     new_list: list[int] = list()
     for i in numbers:
         if i % 2 == 0:
@@ -12,6 +13,7 @@ def only_evens(numbers: list[int]) -> list[int]:
 
 
 def sub(numbers: list[int], start, end) -> list[int]:
+    """Returns a list with only the numbers in a certain range of a given list."""
     new_list: list[int] = list()
     i: int = start
     if start < 0:
@@ -25,6 +27,7 @@ def sub(numbers: list[int], start, end) -> list[int]:
 
 
 def concat(list_1: list[int], list_2: list[int]) -> list[int]:
+    """Returns a list that is the combination of two given lists."""
     new_list: list[int] = list()
     for i in list_1:
         new_list.append(i)
