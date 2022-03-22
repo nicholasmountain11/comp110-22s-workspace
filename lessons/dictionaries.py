@@ -51,3 +51,5 @@ for key in schools:
 
 for school in schools:
     print(f"Key: {school} -> Value: {schools[school]}")
+
+print((len(schools)))

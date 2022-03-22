@@ -1,4 +1,4 @@
-"""Docstring."""
+"""Functions that invert, count, and find the most common value in a dictionary or list."""
 
 __author__ = "730477365"
 
